@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+int main() {
+    int skaic;
+    cin >> skaic;
+
+    for (int i = 1; i < skaic; ++i) {
+
+            cout << i << "x" << "2" << " = " << i*2 << "\n";
+
+    }
+
+ }
+
+

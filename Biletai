@@ -6,6 +6,7 @@ int min,max;
 cin >> min;
 cin >> max;
 
+cout << "Laimingi numeriukai: ";
     for (int i = min; i < max; ++i) {
         if ( i % 2 == 0){
             if( i %10 == 0){

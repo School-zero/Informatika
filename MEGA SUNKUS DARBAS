@@ -1,0 +1,21 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main() {
+    int x1,x2;
+    cout << "iveskite min" << "\n";
+    cin >> x1;
+    cout << "iveskite max" << "\n";
+    cin >> x2;
+    for (int i = x2; i <=x1 ; ++i) {
+        int y = fabs(pow(i,3)+(i)-9);
+        cout << "x" << "  y" << "\n";
+        cout << i << " " << y << "\n";
+
+
+    }
+
+}
+
+
+

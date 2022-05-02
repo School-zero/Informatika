@@ -3,13 +3,13 @@
 using namespace std;
 int main() {
     int x1,x2;
-    cout << "iveskite min" << "\n";
+    cout << "iveskite pradzoa" << "\n";
     cin >> x1;
-    cout << "iveskite max" << "\n";
+    cout << "iveskite pabaiga" << "\n";
     cin >> x2;
+    cout << "x" << "  y" << "\n";
     for (int i = x2; i <=x1 ; ++i) {
         int y = fabs(pow(i,3)+(i)-9);
-        cout << "x" << "  y" << "\n";
         cout << i << " " << y << "\n";
 
 

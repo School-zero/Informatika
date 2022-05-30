@@ -1,0 +1,22 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+int main() {
+    int n,p;
+    string name;
+    ifstream fd ("C:\\Users\\Mokinys\\CLionProjects\\shule\\u1.txt");
+    ofstream fr ("C:\\Users\\Mokinys\\CLionProjects\\shule\\u2.txt");
+
+    fd >> n >>p;
+
+    for (int i =0; i<n; i++) {
+        fd >> name;
+        fr << name << "\n";
+        for (int j = 0; j <p; ++j) {
+            fd >> p;
+            fr << " "<<p;
+        }
+    }
+
+    return 0;
+}
